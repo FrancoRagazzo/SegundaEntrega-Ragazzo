@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    
+    flex-wrap: wrap;
+    background-color: beige;
+    background-position: center center;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+   
+}
+
+
+h1 {
+    color: red;
+}
+header{
+    display: flex;
+    min-height: 155px;
+    margin-top: auto;
+    background-color: rgb(107, 30, 30);
+    align-items: center;
+    padding: 10px;
+    font-family:'Open Sans', sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: white;
+}
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0 px;
+    }
+}
+.equipamiento-titulo{
+    font-size: clamp(2em, 2vw, 5em);
+    text-align: left;
+    padding: 2%;
+    margin-right: 50%;
+    color: black;
+    text-decoration: underline;
+}
+.equipamiento-nivel{
+    font-size: clamp(2em, 1vw, 5em);
+    text-align: left;
+    padding: 2%;
+    margin-right: 50%;
+    color: black;
+    margin-bottom: 10%;
+}
+
+.personal-titulo{
+    font-size: clamp(2em, 2vw, 5em);
+    text-align: right;
+    padding: 2%;
+    margin-left: 50%;
+    color: black;
+    text-decoration: underline;
+}
+
+.personal-capacitado{
+    font-size: clamp(2em, 1vw, 5em);
+    text-align: right;
+    padding: 2%;
+    margin-left: 50%;
+    color: black;
+}
+.nombre_empresa{
+
+    color: black;
+    font-family:'Open Sans', sans-serif;
+    font-style: inherit;
+    
+}
+.presentacion{
+    display: flex;
+    justify-content: left;
+    margin-left: 2%;
+    margin-right: 10%;
+    margin-top: 10%;
+    min-width: 250px;
+    color: black;
+}
+.frente_pochy{
+    width: 75vw;
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+}
+.img-frente{
+    width: 100%;
+    border-radius:15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5); 
+}
+.info_arenado{
+    display: flex;
+    justify-content: left;
+    margin-left: 2%;
+    margin-right: 10%;
+    margin-top: 10%;
+    min-width: 250px;
+}
+.img_arenado{
+width: 75vw;
+max-width: 1000px;
+min-width: 320px;
+margin: auto;
+}
+.img-arena{
+    width: 100%;
+    border-radius:15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+.formulario{
+margin-top: 10px;
+font-size: 1em;
+width: 400px;
+background-color: brown;
+border-radius: 3px;
+padding: 20px;
+}
+input, textarea{
+    border: 0px;
+    outline: none;
+}
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+    width: 300px;
+}
+.field:focus{
+    border-color: aqua;
+}
+.btn{
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20 px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+    box-shadow: 0 1px 0 rgba(0,0,0,0.3)
+}
+.btn-green{
+    color: white;
+    background-color: #3CC93F;
+}
+.btn-green:hover{
+    background-color: #37B839;
+}
+.btn-green:active{
+    background-color: #29962a;
+}
+.center-content{
+    text-align: center;
+}
+
+
+footer{
+    color: white;
+    margin-top: 5%;
+
+    
+}
+.telefonos{
+    font-size: clamp(2em, 0.2vw, 5em);
+    display: inline;
+    margin-left: 5px;
+}
+
+.slide{
+    margin-top: 10px;
+    
+
+}
+
+.slide img{
+    height: 70vh;
+}
+.navbar{
+    width: 100%;
+    border-radius: 10vh;
+    border-color: gray;
+    color: gray;
+}
